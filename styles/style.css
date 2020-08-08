@@ -15,10 +15,11 @@
 }
 
 .main-footer {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     color: var(--expoedge-red);
+    font-family: var(--expoedge-font-family);
 }
 
 /* COMPANY LOGO */
@@ -75,7 +76,6 @@
 
 .contact-container div {
     width: 48%;
-    height: 500px;
     padding: 25px;
     color: var(--expoedge-red);
     font-family: var(--expoedge-font-family);
