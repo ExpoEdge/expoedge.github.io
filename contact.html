@@ -2,67 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ExpoEdge</title>
+    <title>ExpoEdge International</title>
 
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="libraries/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/navbar.css">
 
     <script src="libraries/jquery-3.5.1.slim.min.js"></script>
-    <script src="libraries/bootstrap.min.js"></script>
-    <script src="libraries/popper.min.js"></script>
+    <script src="scripts/loader.js"></script>
 </head>
 <body>
-<div class="main-container">
+    <div class="main-container">
+        <main-logo></main-logo>
+        <main-navbar></main-navbar>
+        <script>setActiveTab('cntc');</script>
 
-    <!-- Logo -->
-    <p>
-        <br>
-        <span class="logo-primary">ExpoEdge </span>
-        <span class="logo-secondary"> International</span>
-    </p>
+        <div class="contact-container">
+            <div class="">
+                <span style="font-weight: bolder; font-size: 1.5rem;">
+                    ExpoEdge International FZE
+                </span><br><br>
+                <span style="font-size: 1.12rem">
+                    Office 244/D, Block: G1, Al Jarf Industrial Area <br>
+                    P.O. Box: 40264 - Ajman Free Zone, Ajman, <br>
+                    United Arab Emirates <br>
+                    Tel.: +971 6 7487951  Fax: +971 6 7487951 <br>
+                    <br>
+                    Mobile: +971 563610794 / +91 9712755660 <br>
+                    Email: <a href="mailto:expoedgefze@gmail.com">expoedgefze@gmail.com</a><br>
+                    <br>
+                    D&B D-U-N-S Number: 55-794-0567 <br>
+                </span>
+            </div>
 
-    <!-- Navbar -->
-    <div id='nav-menu'>
-        <ul>
-            <li><a href='index.html'><span>Home</span></a></li>
-            <li><a href='#'><span>Profile</span></a></li>
-            <li><a href='#'><span>Products</span></a></li>
-            <li><a href='#'><span>Sitemap</span></a></li>
-            <li class='last'><a href='#'><span>Events</span></a></li>
-            <li class='active' style="float:right"><a href='#'><span>Contact</span></a></li>
-        </ul>
-    </div>
-
-    <div class="contact-container">
-        <div class="">
-            <span style="font-weight: bolder; font-size: 1.75rem;">ExpoEdge International FZE</span><br><br>
-            <span style="font-size: 1.2rem">
-                Office 244/D, Block: G1, Al Jarf Industrial Area <br>
-                P.O. Box: 40264 - Ajman Free Zone, Ajman, <br>
-                United Arab Emirates. <br>
-                Tel.: +971 6 7487951  Fax: +971 6 7487951 <br>
-                Mobile: +971 563610794 / +91 9712755660 <br>
-                <br>
-                Skype: Sanjeev_77 <br>
-                Email: expoedgefze@gmail.com <br>
-                <br>
-                D&B D-U-N-S Number: 55-794-0567 <br>
-            </span>
+            <div class="">
+            <!-- INSERT CONTACT FORM HERE -->
+            </div>
         </div>
-        <div class="">
-        <!-- INSERT CONTACT FORM HERE -->
-        </div>
+
+        <main-footer></main-footer>
     </div>
-
-
-    <div class="main-footer">
-        <hr>
-        <br>
-        <span>Copyright © ExpoEdge International FZE, 2014 - All rights reserved.</span>
-    </div>
-
-</div>
-
 </body>
 </html>
