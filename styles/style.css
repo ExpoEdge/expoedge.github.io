@@ -1,5 +1,7 @@
 :root {
     --expoedge-red: #CC0000;
+    --expoedge-light-blue: #78BCC4;
+    --expoedge-dark-blue: #002C3E;
     --expoedge-font-family: verdana, geneva, sans-serif;
 }
 
@@ -25,4 +27,40 @@
     margin: auto;
 }
 
+#values-container {
+    padding-top: 50px;
 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.value-unit {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.value-unit * {
+    align-self: center;
+    margin: 10px;
+}
+
+.value-unit img {
+    width: 75px;
+}
+
+.value-unit span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--expoedge-font-family);
+    color: #454545;
+}
+
+.main-footer {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--expoedge-red);
+}
