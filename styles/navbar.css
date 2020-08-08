@@ -1,7 +1,7 @@
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);*/
 
 #nav-menu {
-    background: #d62828;
+    background: var(--expoedge-red);
     margin: auto auto 20px;
 }
 #nav-menu ul {
@@ -61,8 +61,10 @@
     top: 19px;
     height: 6px;
     width: 6px;
+
     background: #ffffff;
     opacity: .5;
+    /*background: var(--expoedge-red);*/
 }
 #nav-menu ul li a:before {
     content: "";
