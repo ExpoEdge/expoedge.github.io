@@ -49,3 +49,8 @@ function setActiveTab(tabId) {
 
 // CAUSES REFLOW, ELEMENT MOVEMENT VISIBLE - DON'T USE
 // this.innerHTML = await (await fetch("html/header.html")).text();
+
+const Http = new XMLHttpRequest();
+const url = 'https://ee-apis.herokuapp.com/inc';
+Http.open("POST", url, true);
+Http.send();
