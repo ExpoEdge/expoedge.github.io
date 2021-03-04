@@ -91,4 +91,5 @@
     line-height: 25px;
     color: var(--expoedge-red);
     font-family: var(--expoedge-font-family);
+    text-align: justify;
 }
