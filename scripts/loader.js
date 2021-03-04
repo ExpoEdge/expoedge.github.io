@@ -16,7 +16,7 @@ class mainNavbar extends HTMLElement {
             <div id='nav-menu'>
                 <ul>
                     <li id="home"><a href='index.html'><span>Home</span></a></li>
-                    <li id="prof"><a href='#'><span>Profile</span></a></li>
+                    <li id="prof"><a href='profile.html'><span>Profile</span></a></li>
                     <li id="prod"><a href='#'><span>Products</span></a></li>
                     <li id="sitm"><a href='#'><span>Sitemap</span></a></li>
                     <li id="evnt" class='last'><a href='#'><span>Events</span></a></li>

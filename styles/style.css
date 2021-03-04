@@ -84,3 +84,11 @@
 .contact-container a {
     opacity: 0.8;
 }
+
+.profile-container {
+    width: 95%;
+    padding: 2.5%;
+    line-height: 25px;
+    color: var(--expoedge-red);
+    font-family: var(--expoedge-font-family);
+}
