@@ -15,12 +15,34 @@ class mainNavbar extends HTMLElement {
         this.innerHTML = `
             <div id='nav-menu'>
                 <ul>
-                    <li id="home"><a href='index.html'><span>Home</span></a></li>
-                    <li id="prof"><a href='profile.html'><span>Profile</span></a></li>
-                    <li id="prod"><a href='#'><span>Products</span></a></li>
-                    <li id="sitm"><a href='#'><span>Sitemap</span></a></li>
-                    <li id="evnt" class='last'><a href='#'><span>Events</span></a></li>
-                    <li id="cntc" style="float:right"><a href='contact.html'><span>Contact</span></a></li>
+                    <li id="home"><a href='index.html'><span>HOME</span></a></li>
+                    <li id="prof"><a href='profile.html'><span>PROFILE</span></a></li>
+                    <li id="prod" class="drop-tab">
+                        <a href='#'><span>PRODUCTS</span></a>
+                        <div class="drop-content" style="width: 200%">
+                            <a href="#" class="drop-option">Air / Dust Filters</a>
+                            <a href="#" class="drop-option">Rubber Products</a>
+                            <a href="#" class="drop-option">Blades / Cutters / Knives</a>
+                            <a href="#" class="drop-option">Automation & Process Control</a>
+                            <a href="#" class="drop-option">Tapes</a>
+                            <a href="#" class="drop-option">Testing & Measuring Devices</a>
+                        </div>
+                    </li>
+                    <li id="indt" class="drop-tab">
+                        <a href='#'><span>INDUSTRIES</span></a>
+                        <div class="drop-content" style="width: 200%">
+                            <a href="#" class="drop-option">Flexo / Roto Printing</a>
+                            <a href="#" class="drop-option">Injection / Blow / Roto Molding</a>
+                            <a href="#" class="drop-option">PVC / HDPE Pipe Extrusion</a>
+                            <a href="#" class="drop-option">Flexible Packaging</a>
+                            <a href="#" class="drop-option">Paper Converting</a>
+                            <a href="#" class="drop-option">Blown Film Extrusion</a>
+                            <a href="#" class="drop-option">Bag / Pouch Making</a>
+                            <a href="#" class="drop-option">Plastic Recycling</a>
+                        </div>
+                    </li>
+                    <li id="evnt" class='last'><a href='#'><span>EVENTS</span></a></li>
+                    <li id="cntc" style="float:right"><a href='contact.html'><span>CONTACT</span></a></li>
                 </ul>
             </div>
         `;
