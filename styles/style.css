@@ -70,6 +70,7 @@
 .industry-cols-container {
     display: flex;
     justify-content: space-evenly;
+    padding-left: 40px
 }
 
 .industry-col {
