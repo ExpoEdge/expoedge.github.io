@@ -36,7 +36,7 @@ class mainNavbar extends HTMLElement {
                             <a href="#" class="drop-option">PVC / HDPE Pipe Extrusion</a>
                             <a href="#" class="drop-option">Flexible Packaging</a>
                             <a href="#" class="drop-option">Paper Converting</a>
-                            <a href="#" class="drop-option">Blown Film Extrusion</a>
+                            <a href="industry_blown_film_extrusion.html" class="drop-option">Blown Film Extrusion</a>
                             <a href="#" class="drop-option">Bag / Pouch Making</a>
                             <a href="#" class="drop-option">Plastic Recycling</a>
                         </div>

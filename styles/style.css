@@ -66,6 +66,29 @@
     color: #454545;
 }
 
+/* INDUSTRIES - SUB SECTIONS */
+.industry-cols-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.industry-col {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.industry-col * {
+    margin: 5px;
+}
+
+.industry-col span {
+    font-size: 1.1rem;
+    font-family: var(--expoedge-font-family);
+    color: var(--expoedge-red);
+}
+
 /* CONTACT PAGE */
 .contact-container {
     display: flex;
