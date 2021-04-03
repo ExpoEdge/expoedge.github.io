@@ -13,38 +13,48 @@ class mainLogo extends HTMLElement {
 class mainNavbar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <div id='nav-menu'>
-                <ul>
-                    <li id="home"><a href='index.html'><span>HOME</span></a></li>
-                    <li id="prof"><a href='profile.html'><span>PROFILE</span></a></li>
-                    <li id="prod" class="drop-tab">
-                        <a href='#'><span>PRODUCTS</span></a>
-                        <div class="drop-content" style="width: 200%">
-                            <a href="#" class="drop-option">Air / Dust Filters</a>
-                            <a href="#" class="drop-option">Rubber Products</a>
-                            <a href="#" class="drop-option">Blades / Cutters / Knives</a>
-                            <a href="#" class="drop-option">Automation & Process Control</a>
-                            <a href="#" class="drop-option">Tapes</a>
-                            <a href="#" class="drop-option">Testing & Measuring Devices</a>
-                        </div>
-                    </li>
-                    <li id="indt" class="drop-tab">
-                        <a href='#'><span>INDUSTRIES</span></a>
-                        <div class="drop-content" style="width: 200%">
-                            <a href="#" class="drop-option">Flexo / Roto Printing</a>
-                            <a href="#" class="drop-option">Injection / Blow / Roto Molding</a>
-                            <a href="#" class="drop-option">PVC / HDPE Pipe Extrusion</a>
-                            <a href="#" class="drop-option">Flexible Packaging</a>
-                            <a href="#" class="drop-option">Paper Converting</a>
-                            <a href="industry_blown_film_extrusion.html" class="drop-option">Blown Film Extrusion</a>
-                            <a href="#" class="drop-option">Bag / Pouch Making</a>
-                            <a href="#" class="drop-option">Plastic Recycling</a>
-                        </div>
-                    </li>
-                    <li id="evnt" class='last'><a href='#'><span>EVENTS</span></a></li>
-                    <li id="cntc" style="float:right"><a href='contact.html'><span>CONTACT</span></a></li>
-                </ul>
+            <div class="nav-container">
+            <div class="nav-option">
+                <a href="index.html"><div class="nav-option-text" id="home"><span>HOME</span></div></a>
             </div>
+            <div class="nav-option dot-before">
+                <a href="profile.html"><div class="nav-option-text" id="prof"><span>PROFILE</span></div></a>
+            </div>
+            <div class="nav-option dot-before">
+                <a href="#"><div class="nav-option-text" id="prod"><span>PRODUCTS</span></div></a>
+                <div class="nav-subcontainer" style="width: 18%">
+                    <a class="nav-suboption" id="prod-1" href="#"><span>Air / Dust Filters</span></a>
+                    <a class="nav-suboption" id="prod-2" href="#"><span>Rubber Products</span></a>
+                    <a class="nav-suboption" id="prod-3" href="#"><span>Blades / Cutters / Knives</span></a>
+                    <a class="nav-suboption" id="prod-4" href="#"><span>Automation & Process Control</span></a>
+                    <a class="nav-suboption" id="prod-5" href="#"><span>Tapes</span></a>
+                    <a class="nav-suboption" id="prod-6" href="#"><span>Testing & Measuring Devices</span></a>
+                </div>
+            </div>
+            <div class="nav-option dot-before">
+                <a href="#"><div class="nav-option-text" id="indt"><span>INDUSTRIES</span></div></a>
+                <div class="nav-subcontainer" style="width: 18%">
+                    <a class="nav-suboption" id="indt-1" href="#"><span>Flexo / Roto Printing</span></a>
+                    <a class="nav-suboption" id="indt-2" href="#"><span>Injection / Blow / Roto Molding</span></a>
+                    <a class="nav-suboption" id="indt-3" href="#"><span>PVC / HDPE Pipe Extrusion</span></a>
+                    <a class="nav-suboption" id="indt-4" href="#"><span>Flexible Packaging</span></a>
+                    <a class="nav-suboption" id="indt-5" href="#"><span>Paper Converting</span></a>
+                    <a class="nav-suboption" id="indt-6" href="industry_blown_film_extrusion.html"><span>Blown Film Extrusion</span></a>
+                    <a class="nav-suboption" id="indt-7" href="#"><span>Bag / Pouch Making</span></a>
+                    <a class="nav-suboption" id="indt-8" href="#"><span>Plastic Recycling</span></a>
+                </div>
+            </div>
+            <div class="nav-option dot-before">
+                <a href="#"><div class="nav-option-text" id="evnt"><span>EVENTS</span></div></a>
+            </div>
+            <div class="nav-option" style="margin-left: auto">
+                <a href="contact.html"><div class="nav-option-text" id="cntc"><span>CONTACT</span></div></a>
+            </div>
+<!--            <div class="nav-option" style="margin-right: 0">-->
+<!--            </div>-->
+<!--            <div class="nav-option" style="margin-right: 0">-->
+<!--            </div>-->
+        </div>
         `;
     }
 }
@@ -65,8 +75,8 @@ customElements.define('main-logo', mainLogo);
 customElements.define('main-navbar', mainNavbar);
 customElements.define('main-footer', mainFooter);
 
-function setActiveTab(tabId) {
-    $('#'+tabId).addClass('active');
+function setActiveTab(tabId, className) {
+    $('#'+tabId).addClass(className);
 }
 
 // CAUSES REFLOW, ELEMENT MOVEMENT VISIBLE - DON'T USE

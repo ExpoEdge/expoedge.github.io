@@ -7,36 +7,27 @@
 }
 
 .nav-container {
-    background-color: var(--expoedge-red);
-
     display: flex;
-}
 
-.nav-option {
-    padding: var(--opt-pad-v) var(--opt-pad-h) calc(var(--opt-pad-v) - var(--opt-underline))  var(--opt-pad-h);
-    border-bottom: var(--opt-underline) solid var(--expoedge-red);
-
-    position: relative;
-    display: inline-block;
+    background-color: var(--expoedge-red);
 }
 
 .nav-option-text {
-    text-decoration: none;
+    padding: var(--opt-pad-v) var(--opt-pad-h) calc(var(--opt-pad-v) - var(--opt-underline))  var(--opt-pad-h);
+    border-bottom: var(--opt-underline) solid var(--expoedge-red);
 }
-
-.nav-option span {
+.nav-option-text span, .nav-suboption span {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
 }
+.nav-option a { text-decoration: none; }
 
 .nav-subcontainer {
     display: none;
     position: absolute;
-
-    margin-top: var(--opt-pad-v);
-    margin-left: calc(-1*var(--opt-pad-h));
+    z-index: 1;
 }
 
 .nav-suboption {
@@ -48,21 +39,25 @@
     text-decoration: none;
 }
 
-.nav-option:hover {
+.nav-option:hover .nav-option-text, .nav-option-text-active {
     border-bottom: var(--opt-underline) solid var(--expoedge-pink);
     transition: border-bottom-color var(--opt-hover-delay);
 }
-.nav-option:hover .nav-option-text span {
+.nav-option:hover .nav-option-text span, .nav-option-text-active span {
     color: var(--expoedge-pink);
     transition: color var(--opt-hover-delay);
 }
 .nav-option:hover .nav-subcontainer {
     display: block;
+    margin-top: 1px;
 }
 
-.nav-suboption:hover span {
-    color: var(--expoedge-pink);
-    transition: color var(--opt-hover-delay);
+.nav-suboption:hover, .nav-suboption-active {
+    background-color: var(--expoedge-pink);
+}
+.nav-suboption:hover span, .nav-suboption-active span {
+    color: var(--expoedge-red);
+    /*transition: color var(--opt-hover-delay);*/
 }
 
 .dot-before:before {
@@ -71,6 +66,6 @@
     width: var(--opt-dot-size);
     background-color: var(--expoedge-pink);
     position: absolute;
-    top: 50%;
-    margin-left: calc(-1*var(--opt-pad-h) - var(--opt-dot-size)/2);
+    margin-top: calc(var(--opt-pad-v) + 0.9rem/2 + var(--opt-underline)/2 - var(--opt-dot-size)/2);
+    margin-left: calc(-1*var(--opt-dot-size)/2);
 }
