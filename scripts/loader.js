@@ -23,7 +23,7 @@ class mainNavbar extends HTMLElement {
             <div class="nav-option dot-before">
                 <a href="#"><div class="nav-option-text" id="prod"><span>PRODUCTS</span></div></a>
                 <div class="nav-subcontainer" style="width: 18%">
-                    <a class="nav-suboption" id="prod-1" href="#"><span>Air / Dust Filters</span></a>
+                    <a class="nav-suboption" id="prod-1" href="products_air_dust_filters.html"><span>Air / Dust Filters</span></a>
                     <a class="nav-suboption" id="prod-2" href="#"><span>Rubber Products</span></a>
                     <a class="nav-suboption" id="prod-3" href="#"><span>Blades / Cutters / Knives</span></a>
                     <a class="nav-suboption" id="prod-4" href="#"><span>Automation & Process Control</span></a>

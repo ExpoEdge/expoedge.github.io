@@ -38,14 +38,14 @@
 }
 
 /* HOME - VALUES SECTION */
-#values-container {
+.values-container {
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .value-unit {
-    width: 25%;
+    /*width: 25%;*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
