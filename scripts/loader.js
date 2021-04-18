@@ -24,9 +24,9 @@ class mainNavbar extends HTMLElement {
                 <a href="#"><div class="nav-option-text" id="prod"><span>PRODUCTS</span></div></a>
                 <div class="nav-subcontainer" style="width: 18%">
                     <a class="nav-suboption" id="prod-1" href="products_air_dust_filters.html"><span>Air / Dust Filters</span></a>
-                    <a class="nav-suboption" id="prod-2" href="#"><span>Rubber Products</span></a>
-                    <a class="nav-suboption" id="prod-3" href="#"><span>Blades / Cutters / Knives</span></a>
-                    <a class="nav-suboption" id="prod-4" href="#"><span>Automation & Process Control</span></a>
+                    <a class="nav-suboption" id="prod-2" href="products_rubber.html"><span>Rubber Products</span></a>
+                    <a class="nav-suboption" id="prod-3" href="products_blades.html"><span>Blades / Cutters / Knives</span></a>
+                    <a class="nav-suboption" id="prod-4" href="products_automation.html"><span>Automation & Process Control</span></a>
                     <a class="nav-suboption" id="prod-5" href="#"><span>Tapes</span></a>
                     <a class="nav-suboption" id="prod-6" href="#"><span>Testing & Measuring Devices</span></a>
                 </div>
