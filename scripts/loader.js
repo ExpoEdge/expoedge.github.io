@@ -27,14 +27,15 @@ class mainNavbar extends HTMLElement {
                     <a class="nav-suboption" id="prod-2" href="products_rubber.html"><span>Rubber Products</span></a>
                     <a class="nav-suboption" id="prod-3" href="products_blades.html"><span>Blades / Cutters / Knives</span></a>
                     <a class="nav-suboption" id="prod-4" href="products_automation.html"><span>Automation & Process Control</span></a>
-                    <a class="nav-suboption" id="prod-5" href="#"><span>Tapes</span></a>
-                    <a class="nav-suboption" id="prod-6" href="#"><span>Testing & Measuring Devices</span></a>
+                    <a class="nav-suboption" id="prod-5" href="products_tapes.html"><span>Tapes</span></a>
+                    <a class="nav-suboption" id="prod-6" href="products_measuring.html"><span>Testing & Measuring Devices</span></a>
+                    <a class="nav-suboption" id="prod-7" href="products_bearings.html"><span>Bearings</span></a>
                 </div>
             </div>
             <div class="nav-option dot-before">
                 <a href="#"><div class="nav-option-text" id="indt"><span>INDUSTRIES</span></div></a>
                 <div class="nav-subcontainer" style="width: 18%">
-                    <a class="nav-suboption" id="indt-1" href="#"><span>Flexo / Roto Printing</span></a>
+                    <a class="nav-suboption" id="indt-1" href="industry_flexo_roto_print.html"><span>Flexo / Roto Printing</span></a>
                     <a class="nav-suboption" id="indt-2" href="#"><span>Injection / Blow / Roto Molding</span></a>
                     <a class="nav-suboption" id="indt-3" href="#"><span>PVC / HDPE Pipe Extrusion</span></a>
                     <a class="nav-suboption" id="indt-4" href="#"><span>Flexible Packaging</span></a>
