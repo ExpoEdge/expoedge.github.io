@@ -28,7 +28,7 @@ class mainNavbar extends HTMLElement {
                     <a class="nav-suboption" id="prod-3" href="products_blades.html"><span>Blades / Cutters / Knives</span></a>
                     <a class="nav-suboption" id="prod-4" href="products_automation.html"><span>Automation & Process Control</span></a>
                     <a class="nav-suboption" id="prod-5" href="products_tapes.html"><span>Tapes</span></a>
-                    <a class="nav-suboption" id="prod-6" href="products_measuring.html"><span>Testing & Measuring Devices</span></a>
+                    <a class="nav-suboption" id="prod-6" href="products_measuring.html"><span>Measuring Devices</span></a>
                     <a class="nav-suboption" id="prod-7" href="products_bearings.html"><span>Bearings</span></a>
                 </div>
             </div>
