@@ -37,7 +37,7 @@ class mainNavbar extends HTMLElement {
                 <div class="nav-subcontainer" style="width: 18%">
                     <a class="nav-suboption" id="indt-1" href="industry_flexo_roto_print.html"><span>Flexo / Roto Printing</span></a>
                     <a class="nav-suboption" id="indt-2" href="#"><span>Injection / Blow / Roto Molding</span></a>
-                    <a class="nav-suboption" id="indt-3" href="#"><span>PVC / HDPE Pipe Extrusion</span></a>
+                    <a class="nav-suboption" id="indt-3" href="industry_pipe_extrusion.html"><span>PVC / HDPE / PPR - Pipe Extrusion</span></a>
                     <a class="nav-suboption" id="indt-4" href="#"><span>Flexible Packaging</span></a>
                     <a class="nav-suboption" id="indt-5" href="#"><span>Paper Converting</span></a>
                     <a class="nav-suboption" id="indt-6" href="industry_blown_film_extrusion.html"><span>Blown Film Extrusion</span></a>
